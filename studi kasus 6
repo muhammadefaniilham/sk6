@@ -1,0 +1,38 @@
+#include <iostream>
+
+class Nilai{
+public :
+  void input ();
+  void proses ();
+  void output ();
+private :
+  string nama_dosen (50), matkul(50);
+  int min;
+  int max;
+  float rata, jumlah;
+};
+
+void nilai::input{
+  cout<<"\n=========================<<endl"
+  cout<<"Nilai Mahasiswa"<<endl;
+  cout<<"=========================\n<<endl"
+
+  cout<<"Masukkan Nama Dosen :";
+  cin>>nama_dosen;
+  cout<<"Masukkan Nama Matkul :";
+  cin>>matkul;
+  cout<<"Masukkan Jumlah Nilai :";
+  cin>>jumlah;
+  cout<<endl;
+}
+
+void Nilai::proses(){
+  for (int i=0; i<jumlah; i++)
+    max=nilai[0];
+}
+for (int i=0; i<jumlah; i++){
+  min=nilai[0];
+  }
+for (int i=0; i<jumlahj; i++){
+  rata=nilai[0]
+}
